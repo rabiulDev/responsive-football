@@ -67,3 +67,36 @@ HERO SECTION STYLES
 /*------------------- 
 BLOG SECTION STYLES 
 --------------------*/
+.main__section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.players__container {
+  max-width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+.player {
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player__img img {
+  width: 100%;
+}
+.player__name {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 28px;
+  color: #18191f;
+}
+.player p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6c6c6c;
+}
