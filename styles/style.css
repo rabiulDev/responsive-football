@@ -100,3 +100,41 @@ BLOG SECTION STYLES
   line-height: 26px;
   color: #6c6c6c;
 }
+
+/*----------------------
+ FOOTER SECTION STYLES 
+ -----------------------*/
+.footer__section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__container {
+  max-width: 483.87px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__img img {
+  width: 100%;
+}
+
+.footer__icons {
+  max-width: 170px;
+  display: flex;
+  column-gap: 14px;
+}
+.footer__icon {
+  width: 25%;
+}
+.footer__icon img {
+  width: 100%;
+}
+.copyright {
+  font-size: 18px;
+  color: #000000;
+  margin: 20px 0;
+  margin-bottom: 50px;
+}
